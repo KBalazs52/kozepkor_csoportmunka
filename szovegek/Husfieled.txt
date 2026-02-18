@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 én lenni szerzetes (egyházi személy)
+=======
+>>>>>>> da9e433 (eredeti)

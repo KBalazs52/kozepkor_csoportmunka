@@ -20,7 +20,7 @@ A szövegek legyenek rövidek, lényegre törők, saját magad fogalmazd meg, eg
 
 ### 1. Jellemző öltözködés
 
-- Mit viselek?
+-  
 - Miből készül a ruhám?
 - Mit árul el rólam a viseletem?
 
