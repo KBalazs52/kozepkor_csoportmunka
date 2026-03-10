@@ -4,20 +4,23 @@
 
 
 h1{
-    color: green;
+    color: rgb(104, 62, 6);
 }
 h2{
-    color: red;
+    color: rgb(104, 62, 6);
 }
 
 p{
-    color: blue;
+    color: rgb(104, 62, 6);
     text-align: justify;
 }
 
+div{
+    color: rgb(104, 62, 6);
+}
 
 .nav{
-    color: red
+    color: rgb(104, 62, 6)
 
 }
 
