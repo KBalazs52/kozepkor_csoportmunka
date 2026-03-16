@@ -1,26 +1,94 @@
-* {
-    box-sizing: border-box;
+/* háttér */
+
+body{
+    margin:0;
+    font-family: Georgia, serif;
+    background:url("parchment.jpg");
+    background-size:cover;
 }
 
 
-h1{
-    color: rgb(104, 62, 6);
-}
-h2{
-    color: rgb(104, 62, 6);
-}
+/* fő tartalom */
 
-p{
-    color: rgb(104, 62, 6);
-    text-align: justify;
+main{
+    width:700px;
+    margin:auto;
+    background:#e7dcc8;
+    border:2px solid #b64b4b;
+    padding:20px;
 }
 
-div{
-    color: rgb(104, 62, 6);
+
+/* fejléc */
+
+header{
+    text-align:center;
+    border:2px solid #b64b4b;
+    padding:10px;
+    margin-bottom:15px;
 }
 
-.nav{
-    color: rgb(104, 62, 6)
-
+header h1{
+    margin:0;
 }
 
+
+/* navigáció */
+
+nav{
+    text-align:center;
+    border:2px solid #b64b4b;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#3b2b1a;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+
+/* cikk */
+
+article{
+    border-left:2px solid #b64b4b;
+    padding-left:20px;
+}
+
+
+/* esemény cím */
+
+article h2{
+    background:#f3ead7;
+    border:2px solid #b64b4b;
+    padding:8px;
+    font-size:16px;
+    margin-top:30px;
+}
+
+
+/* esemény leírás */
+
+article p{
+    background:#efe5d1;
+    padding:10px;
+    border-radius:5px;
+    margin-top:5px;
+}
+
+
+/* lábléc */
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    border-top:2px solid #b64b4b;
+    padding-top:10px;
+    font-size:14px;
+}
