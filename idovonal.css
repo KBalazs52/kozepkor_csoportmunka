@@ -2,8 +2,6 @@ body{
     background-image: url(hatter/hatter_kozepkor.png);
     margin:0;
     font-family: Georgia, serif;
-    background:url("parchment.jpg");
-    background-size:cover;
 }
 
 main{
