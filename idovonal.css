@@ -29,7 +29,6 @@ a {
     font-weight: bolder;
     text-decoration: underline;
     text-decoration: none;
-    color: blue;
 }
 
 img {
@@ -37,7 +36,7 @@ img {
 }
 
 a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(143, 88, 16);
 }
 
 nav{
