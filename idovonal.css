@@ -24,6 +24,19 @@ header h1{
     margin:0;
 }
 
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
 nav{
     text-align:center;
     border:2px solid #b64b4b;
