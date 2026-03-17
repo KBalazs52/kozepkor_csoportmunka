@@ -1,8 +1,7 @@
 body{
+    background-image: url(hatter/hatter_kozepkor.png);
     margin:0;
     font-family: Georgia, serif;
-    background:url("parchment.jpg");
-    background-size:cover;
 }
 
 main{
@@ -33,6 +32,10 @@ a {
     color: blue;
 }
 
+img {
+    width: 100%;
+}
+
 a:hover {
     color: rgb(255, 0, 0);
 }
@@ -57,7 +60,9 @@ nav a:hover{
 
 article{
     border-left:2px solid #b64b4b;
-    padding-left:20px;
+    border-right:2px solid #b64b4b;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 article h2{

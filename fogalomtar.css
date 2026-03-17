@@ -5,7 +5,7 @@ body{
 }
 
 main{
-    background:#e7dcc8;
+    background:#c4af8b;
     width:700px;
     margin:auto;
     border:2px solid #6131ad;
@@ -31,7 +31,7 @@ nav{
 }
 
 nav a{
-    color:#8d661e;
+    color:#941600;
     margin: 15px;
     text-decoration:none;
     font-weight:bold;
@@ -43,6 +43,9 @@ nav a:hover{
 
 article{
     padding-left:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
 }
 
 article h2{
