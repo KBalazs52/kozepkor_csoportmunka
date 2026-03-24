@@ -2,48 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(hatter/hatter_kozepkor.png);
-    margin:0;
-    font-family: Georgia, serif;
-}
-
-main{
-    background:#c4af8b;
-    width:700px;
-    margin:auto;
-    border:2px solid #6131ad;
-    padding:20px;
-}
-
-header{
-    border:2px solid #6131ad;
-    text-align:center;
-    padding:10px;
-    margin-bottom:15px;
-}
-
-header h1{
-    margin:0;
-}
-
-nav{
-    border:2px solid #6131ad;
-    text-align:center;
-    padding:10px;
-    margin-bottom:20px;
-}
-
-nav a{
-    color:#941600;
-    margin: 15px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-nav a:hover{
-    text-decoration:underline;
-}
 
 article{
     padding-left:10px;
@@ -52,28 +10,6 @@ article{
     gap: 10px;
 }
 
-article h2{
-    border:2px solid #6131ad;
-    background:#f3ead7;
-    padding:8px;
-    font-size:16px;
-    margin-top:30px;
-}
-
-article p{
-    background:#efe5d1;
-    padding:10px;
-    border-radius:5px;
-    margin-top:5px;
-}
-
-footer{
-    border-top:2px solid #6131ad;
-    text-align:center;
-    margin-top:30px;
-    padding-top:10px;
-    font-size:14px;
-}
 
 @media screen and (max-width: 600px) {
     .tartalom{
