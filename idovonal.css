@@ -6,10 +6,19 @@
 }
 
 .elrendezes img {
+    padding-top: 40px;
     width: 100%;
-    height: auto;
-    display: block;
-    padding: 10px;
+
+   
     box-shadow: 5px 5px 15px rgba(139, 46, 46, 0.3);
 }
+.esemeny{
+    padding: 20px;
+}
 
+@media screen and (max-width: 600px) {
+    .tartalom{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
