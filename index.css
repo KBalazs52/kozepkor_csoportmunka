@@ -1,0 +1,16 @@
+.elrendezes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.elrendezes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .elrendezes {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
