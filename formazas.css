@@ -77,10 +77,3 @@ footer{
     padding-top:10px;
     font-size:14px;
 }
-
-@media screen and (max-width: 600px) {
-    .tartalom{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-}
