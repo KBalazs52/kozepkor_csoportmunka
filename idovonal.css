@@ -1,19 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(hatter/hatter_kozepkor.png);
-    margin:0;
+    margin: 0;
+    padding: 30px 0;
     font-family: Georgia, serif;
+    color: #3b2b1a;
 }
 
-main{
-    width:700px;
-    margin:auto;
-    background:#e7dcc8;
-    border:2px solid #b64b4b;
-    padding:20px;
+main {
+    width: 860px;
+    margin: auto;
+    background: #e7dcc8;
+    border: 8px solid #8b2e2e;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
 }
 
 header{
@@ -61,6 +65,23 @@ nav a:hover{
     text-decoration:underline;
 }
 
+
+.elrendezes {
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.elrendezes img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(139, 46, 46, 0.3);
+}
+
+
 article{
     border-left:2px solid #b64b4b;
     border-right:2px solid #b64b4b;
@@ -82,6 +103,7 @@ article p{
     border-radius:5px;
     margin-top:5px;
 }
+
 
 footer{
     margin-top:30px;
