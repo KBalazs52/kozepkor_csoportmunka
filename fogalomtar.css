@@ -1,6 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 article{
     padding-left:10px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    article{
+        grid-template-columns: 1fr;
+    }
+    img{
+        max-width: 100%;
+    }
 }
