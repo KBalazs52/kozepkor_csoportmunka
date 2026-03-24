@@ -3,9 +3,9 @@
 }
 
 body {
-
     background-image: url(hatter/hatter_kozepkor.png);
 }
+
 h1 {
     text-align: center;
     font-weight: bolder;
@@ -73,6 +73,9 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    main {
+        width:100%;
+    }
     .elrendezes {
         grid-template-columns: 1fr;
     }
