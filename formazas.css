@@ -1,82 +1,107 @@
 * {
     box-sizing: border-box;
 }
-
+ 
 body {
     background-image: url(hatter/hatter_kozepkor.png);
+    margin: 0;
+    padding: 30px 0;
+    font-family: Georgia, serif;
+    color: #3b2b1a;
 }
-
-h1 {
-    text-align: center;
-    font-weight: bolder;
-    color: red;
-    text-decoration: underline;
-    padding: 9px;
-}
-
+ 
 main {
-    background-color: antiquewhite;
-    width: 80%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 860px;
+    margin: auto;
+    background: #e7dcc8;
+    border: 8px solid #8b2e2e;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
 }
-
-header {
-    text-align: center;
+ 
+header{
+    text-align:center;
+    border:2px solid #b64b4b;
+    padding:10px;
+    margin-bottom:15px;
 }
-
-nav {
-    text-align: center;
+ 
+header h1{
+    margin:0;
 }
-
-h2 {
-    text-align: center;
-    font-weight: bolder;
-    color: cadetblue;
-}
-
-.elrendezes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-p {
-    margin: 10px;
-    text-align: justify;
-    padding: 30px;
-}
-
-img {
-    margin: 16px auto;
-    padding: 3px;
-    border: 2px solid black;
-    width: 100%;
-}
-
-.bejegyzes {
-    border: 3px solid gray;
-}
-
+ 
 a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15pt;
     font-weight: bolder;
+    text-decoration: underline;
     text-decoration: none;
-    color: blue;
-    padding: 5px;
 }
-
+ 
+img {
+    width: 100%;
+}
+ 
 a:hover {
-    color: tomato;
+    color: rgb(143, 88, 16);
 }
-
+ 
+nav{
+    text-align:center;
+    border:2px solid #b64b4b;
+    padding:10px;
+    margin-bottom:20px;
+}
+ 
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#3b2b1a;
+    font-weight:bold;
+}
+ 
+nav a:hover{
+    text-decoration:underline;
+}
+ 
+ 
+ 
+ 
+article{
+    border-left:2px solid #b64b4b;
+    border-right:2px solid #b64b4b;
+    padding-left:10px;
+    padding-right:10px;
+}
+ 
+article h2{
+    background:#f3ead7;
+    border:2px solid #b64b4b;
+    padding:8px;
+    font-size:16px;
+    margin-top:30px;
+}
+ 
+article p{
+    background:#efe5d1;
+    padding:10px;
+    border-radius:5px;
+    margin-top:5px;
+}
+ 
+ 
+footer{
+    margin-top:30px;
+    text-align:center;
+    border-top:2px solid #b64b4b;
+    padding-top:10px;
+    font-size:14px;
+}
+ 
 @media screen and (max-width: 600px) {
-    main {
-        width:100%;
-    }
-    .elrendezes {
+    .tartalom{
+        width: 100%;
         grid-template-columns: 1fr;
     }
 }
