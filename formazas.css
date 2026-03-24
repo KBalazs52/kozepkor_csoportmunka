@@ -46,28 +46,7 @@ img {
 a:hover {
     color: rgb(143, 88, 16);
 }
- 
-nav{
-    text-align:center;
-    border:2px solid #b64b4b;
-    padding:10px;
-    margin-bottom:20px;
-}
- 
-nav a{
-    margin:0 15px;
-    text-decoration:none;
-    color:#3b2b1a;
-    font-weight:bold;
-}
- 
-nav a:hover{
-    text-decoration:underline;
-}
- 
- 
- 
- 
+
 article{
     border-left:2px solid #b64b4b;
     border-right:2px solid #b64b4b;

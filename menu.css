@@ -1,0 +1,18 @@
+nav{
+    text-align:center;
+    border:2px solid #b64b4b;
+    padding:10px;
+    margin-bottom:20px;
+}
+ 
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#3b2b1a;
+    font-weight:bold;
+}
+ 
+nav a:hover{
+    text-decoration:underline;
+}
+ 
